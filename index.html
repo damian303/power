@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Balance of Power</title>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-87774872-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/skeleton.css">
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- .container is main centered wrapper -->
+<div class="container full-width noselect">
+  <!-- columns should be the immediate child of a .row -->
+  <div class="row full-width">
+        <div id="title" class="twelve columns centerize"><h2>The Balance of Power</h2></div>
+  </div>
+  <div class="row full-width">
+        <div  class="twelve columns centerize"><h3>UK Energy Sources</h3></div>
+  </div>
+  <div class="row full-width">
+        <div  class="twelve columns centerize"><h4 id="total"></h4></div>
+  </div>
+  <div class="row full-width">
+        <div id="chart" class="twelve columns"></div>
+  </div>
+
+</div>
+    <!-- load the d3.js library -->
+    <script src="libs/d3.min.js"></script>
+    <!-- load the jquery library -->
+    <script src="libs/jquery-1.11.3.min.js"></script>
+    <!-- load jquery UI
+    <script src="libs/jquery-ui.min.js"></script>-->
+    <script src="js/radial.js"></script>
+  </body>
+</html>
